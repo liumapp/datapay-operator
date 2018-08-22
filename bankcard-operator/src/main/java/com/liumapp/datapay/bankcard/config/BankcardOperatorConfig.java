@@ -1,5 +1,7 @@
 package com.liumapp.datapay.bankcard.config;
 
+import com.liumapp.qtools.http.HttpTool;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -13,6 +15,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BankcardOperatorConfig {
 
-    
+    @Bean("bankcardHttpTool")
+    public HttpTool httpTool () {
+        return new HttpTool();
+    }
+
 
 }
