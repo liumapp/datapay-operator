@@ -1,6 +1,9 @@
 package com.liumapp.datapay.bankcard;
 
+import com.alibaba.fastjson.JSONObject;
+import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -16,8 +19,17 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = {BankcardOperatorMain.class})
 public class BankcardOperatorTest {
 
-    public void testHandle () {
+    @Autowired
+    private BankcardOperator bankcardOperator;
 
+    @Test
+    public void testHandle () throws Exception {
+        JSONObject result = bankcardOperator.handle(
+                "刘美胜奇",
+                "430381199402141013",
+                "6212261202027241463",
+                "15757125631");
+        System.out.println(result.toJSONString());
     }
 
 }
