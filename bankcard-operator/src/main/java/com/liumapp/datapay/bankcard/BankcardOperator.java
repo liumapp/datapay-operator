@@ -1,5 +1,6 @@
 package com.liumapp.datapay.bankcard;
 
+import com.alibaba.fastjson.JSONObject;
 import com.liumapp.datapay.bankcard.config.BankcardOperatorConfig;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Configuration;
@@ -17,4 +18,10 @@ import org.springframework.context.annotation.Import;
 @Configuration
 @Import({BankcardOperatorConfig.class})
 public class BankcardOperator {
+
+    public JSONObject handle () {
+        JSONObject results = new JSONObject();
+        return results;
+    }
+
 }
