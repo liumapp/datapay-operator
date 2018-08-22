@@ -40,4 +40,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+  <modules>
+    <module>bankcard-operator</module>
+  </modules>
 </project>
