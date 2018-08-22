@@ -43,5 +43,6 @@
   <modules>
     <module>bankcard-operator</module>
     <module>pic-operator</module>
+    <module>ocr-operator</module>
   </modules>
 </project>
