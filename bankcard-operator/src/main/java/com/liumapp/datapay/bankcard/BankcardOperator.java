@@ -48,25 +48,25 @@ public class BankcardOperator implements InitializingBean {
             String accNo,
             String mobile
     ) throws Exception {
-        JSONObject params = new JSONObject();
+        HashMap<String, String> params = new HashMap<>();
+        params.put("key", bankcardApi.getAppkey());
         params.put("name", name);
         params.put("idcard", idcard);
         params.put("acc_no", accNo);
         params.put("mobile", mobile);
-        String bodys = params.toJSONString();
         HttpResponse response = httpTool.doPost(
                 bankcardApi.getHost(),
                 bankcardApi.getPath(),
                 "POST",
                 headers,
                 querys,
-                bodys);
+                params);
         String res = EntityUtils.toString(response.getEntity());
         return JSON.parseObject(res);
     }
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        headers.put("Content-Type", "application/json");
+//        headers.put("Content-Type", "application/json");
     }
 }

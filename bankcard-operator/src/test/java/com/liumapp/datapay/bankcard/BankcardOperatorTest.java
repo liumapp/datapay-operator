@@ -19,17 +19,21 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = {BankcardOperatorMain.class})
 public class BankcardOperatorTest {
 
+    private boolean debug = false;
+
     @Autowired
     private BankcardOperator bankcardOperator;
 
     @Test
     public void testHandle () throws Exception {
-        JSONObject result = bankcardOperator.handle(
-                "刘美胜奇",
-                "430381199402141013",
-                "6212261202027241463",
-                "15757125631");
-        System.out.println(result.toJSONString());
+        if (debug) {
+            JSONObject result = bankcardOperator.handle(
+                    "刘美胜奇",
+                    "430381199402141013",
+                    "6212261202027241463",
+                    "15757125631");
+            System.out.println(result.toJSONString());
+        }
     }
 
 }
