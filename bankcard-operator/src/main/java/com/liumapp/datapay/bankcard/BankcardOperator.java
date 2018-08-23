@@ -40,7 +40,8 @@ public class BankcardOperator implements InitializingBean {
      * @param idcard 身份证号码
      * @param accNo 银行卡号
      * @param mobile 手机号
-     * @return json object
+     * @return json object  {"code":"10000","data":{"state":"1"},"seqNo":"IQ4M30TT1808230932","message":"成功"}
+     * state:1 验证结果一致 state:2 验证结果不一致 state:3 出现异常
      */
     public JSONObject handle (
             String name,
