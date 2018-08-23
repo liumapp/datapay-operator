@@ -29,11 +29,6 @@
       <artifactId>qtools-http</artifactId>
       <version>v1.0.0</version>
     </dependency>
-    <!--<dependency>-->
-      <!--<groupId>com.cdp.product</groupId>-->
-      <!--<artifactId>cdp-common-security</artifactId>-->
-      <!--<version>3.5.0</version>-->
-    <!--</dependency>-->
   </dependencies>
 
 </project>

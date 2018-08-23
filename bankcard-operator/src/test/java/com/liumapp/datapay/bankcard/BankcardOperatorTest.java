@@ -28,10 +28,10 @@ public class BankcardOperatorTest {
     public void testHandle () throws Exception {
         if (debug) {
             JSONObject result = bankcardOperator.handle(
-                    "刘美胜奇",
-                    "430381199402141013",
-                    "6212261202027241463",
-                    "15757125631");
+                    "姓名",
+                    "身份证号码",
+                    "银行卡号码",
+                    "手机号码");
             System.out.println(result.toJSONString());
         }
     }
