@@ -23,4 +23,12 @@
   <name>realname-operator</name>
   <url>http://maven.apache.org</url>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.liumapp.qtools.http</groupId>
+      <artifactId>qtools-http</artifactId>
+      <version>v1.0.0</version>
+    </dependency>
+  </dependencies>
+
 </project>
