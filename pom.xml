@@ -33,9 +33,9 @@
 		<module>ocr-operator</module>
 		<module>face-operator</module>
 		<module>phone-operator</module>
-    <module>realname-operator</module>
-    <module>government-operator</module>
-  </modules>
+		<module>realname-operator</module>
+		<module>government-operator</module>
+	</modules>
 
 	<dependencies>
 		<dependency>
