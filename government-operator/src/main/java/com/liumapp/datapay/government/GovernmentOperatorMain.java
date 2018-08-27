@@ -1,5 +1,6 @@
 package com.liumapp.datapay.government;
 
+import com.liumapp.datapay.government.config.GovernmentOperatorConfig;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +16,7 @@ import org.springframework.context.annotation.Import;
  */
 @EnableAutoConfiguration
 @Configuration
+@Import({GovernmentOperatorConfig.class})
 public class GovernmentOperatorMain {
 
     @Bean
