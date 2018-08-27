@@ -35,7 +35,7 @@ public class RealnameOperator implements InitializingBean {
     public Map<String, String> querys = new HashMap<String, String>();
 
     /**
-     * 处理银行验证信息
+     * 公安部实名认证
      * @param name 姓名
      * @param idcard 身份证号码
      * @return json object  {"code":"10000","data":{"result":"1"},"seqNo":"DVGNHTXG1808270952","message":"成功"}

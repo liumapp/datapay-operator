@@ -1,8 +1,10 @@
 package com.liumapp.datapay.phone;
 
+import com.liumapp.datapay.phone.config.PhoneOperatorConfig;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 /**
  * file PhoneOperatorMain.java
@@ -14,6 +16,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @EnableAutoConfiguration
 @Configuration
+@Import({PhoneOperatorConfig.class})
 public class PhoneOperatorMain {
 
     @Bean
