@@ -35,6 +35,7 @@
 		<module>face-operator</module>
 		<module>phone-operator</module>
     <module>realname-operator</module>
+    <module>government-operator</module>
   </modules>
 
 	<dependencies>

@@ -37,8 +37,10 @@
 * 返回结果为
 
         {"code":"10000","data":{"state":"1"},"seqNo":"IQ4M30TT1808230932","message":"成功"}
-        
-        
+                
          state:1 验证结果一致 state:2 验证结果不一致 state:3 出现异常
     
+
+
+
                                 
