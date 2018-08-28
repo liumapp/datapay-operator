@@ -35,7 +35,7 @@ public class OcrOperator implements InitializingBean {
     public Map<String, String> querys = new HashMap<String, String>();
 
     /**
-     * OCR 识别图片文字信息
+     * OCR 识别身份证图片文字信息
      * @param photo 图片的Base64
      * @return JSONObject
      * @throws Exception exception

@@ -19,7 +19,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = {PhoneOperatorMain.class})
 public class PhoneOperatorTest {
 
-    private boolean debug = true;
+    private boolean debug = false;
 
     @Autowired
     private PhoneOperator phoneOperator;
