@@ -22,4 +22,12 @@
 
   <name>ocr-operator</name>
   <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.liumapp.qtools.file</groupId>
+      <artifactId>qtools-file</artifactId>
+      <version>v1.0.0</version>
+    </dependency>
+  </dependencies>
 </project>

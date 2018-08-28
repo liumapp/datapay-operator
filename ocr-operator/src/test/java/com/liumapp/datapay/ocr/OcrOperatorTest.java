@@ -20,12 +20,16 @@ public class OcrOperatorTest {
 
     private boolean debug = true;
 
+    private String dataPath = "/usr/local/tomcat/project/datapay-operator/data/";
+
     @Autowired
     private OcrOperator ocrOperator;
 
     @Test
     public void testHandle () {
+        if (debug) {
 
+        }
     }
 
 }
