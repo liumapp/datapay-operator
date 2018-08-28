@@ -13,6 +13,45 @@ import org.springframework.stereotype.Component;
 @Component
 public class FaceApi {
 
+    private String host;
 
+    private String path;
 
+    private String appkey;
+
+    public FaceApi() {
+    }
+
+    public FaceApi(String host, String path, String appkey) {
+        this.host = host;
+        this.path = path;
+        this.appkey = appkey;
+    }
+
+    public String getHost() {
+        return host;
+    }
+
+    public FaceApi setHost(String host) {
+        this.host = host;
+        return this;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public FaceApi setPath(String path) {
+        this.path = path;
+        return this;
+    }
+
+    public String getAppkey() {
+        return appkey;
+    }
+
+    public FaceApi setAppkey(String appkey) {
+        this.appkey = appkey;
+        return this;
+    }
 }
