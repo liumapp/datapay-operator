@@ -35,8 +35,7 @@
 		<module>phone-operator</module>
 		<module>realname-operator</module>
 		<module>government-operator</module>
-    <module>pic-operator</module>
-  </modules>
+	</modules>
 
 	<dependencies>
 		<dependency>
