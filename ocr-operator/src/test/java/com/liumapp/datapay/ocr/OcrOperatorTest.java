@@ -20,7 +20,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = {OcrOperatorMain.class})
 public class OcrOperatorTest {
 
-    private boolean debug = true;
+    private boolean debug = false;
 
     private String dataPath = "/usr/local/tomcat/project/datapay-operator/data/";
 
