@@ -23,7 +23,7 @@ public class PhoneOperatorConfig {
     }
 
     @Bean
-    @ConfigurationProperties(prefix = "com.liumapp.datapay.realname")
+    @ConfigurationProperties(prefix = "com.liumapp.datapay.phone")
     public PhoneApi phoneApi () {
         PhoneApi phoneApi = new PhoneApi();
         phoneApi.setHost("http://api.chinadatapay.com/");

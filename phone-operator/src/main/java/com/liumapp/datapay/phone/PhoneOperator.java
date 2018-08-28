@@ -24,7 +24,6 @@ import java.util.Map;
 @Component
 public class PhoneOperator implements InitializingBean {
 
-
     @Resource(name = "phoneHttpTool")
     private HttpTool httpTool;
 
@@ -40,7 +39,9 @@ public class PhoneOperator implements InitializingBean {
      * @param name 姓名
      * @param idcard 身份证号码
      * @param mobile 手机号码
-     * @return JSONObject
+     * @return JSONObject {"code":"10000","data":{"state":"1"},"seqNo":"6131H3KG1808280851","message":"成功"}
+     * seqNo 调用唯一标志
+     * state 1:验证一致 2:验证不一致 3:异常
      * @throws Exception exception
      */
     public JSONObject handle (
