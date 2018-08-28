@@ -1,4 +1,5 @@
 com:
   liumapp:
     datapay:
-      appkey:
+      ocr:
+        appkey: your app key here

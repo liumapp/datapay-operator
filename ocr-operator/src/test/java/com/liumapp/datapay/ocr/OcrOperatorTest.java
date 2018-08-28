@@ -1,10 +1,14 @@
 package com.liumapp.datapay.ocr;
 
+import com.alibaba.fastjson.JSONObject;
+import com.liumapp.qtools.file.base64.Base64FileTool;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import java.io.IOException;
 
 /**
  * file OcrOperatorTest.java
@@ -26,9 +30,10 @@ public class OcrOperatorTest {
     private OcrOperator ocrOperator;
 
     @Test
-    public void testHandle () {
+    public void testHandle () throws Exception {
         if (debug) {
-
+            JSONObject result = ocrOperator.handle(Base64FileTool.filePathToBase64(dataPath + "testIdCard.jpeg"));
+            System.out.println(result.toJSONString());
         }
     }
 
