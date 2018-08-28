@@ -37,7 +37,14 @@ public class OcrOperator implements InitializingBean {
     /**
      * OCR 识别身份证图片文字信息
      * @param photo 图片的Base64
-     * @return JSONObject
+     * @return JSONObject {"code":"10000","data":{"birthday":"1654年05月04日","image":"","address":"北京市东城区景山前街4号紫禁城乾清宫","nation":"满","sex":"男","idcard":"000003165405049842","name":"爱新觉罗·玄烨"},"seqNo":"U7LD6MMV1808281147","message":"成功"}
+     * birthday 出生日期
+     * address 住址
+     * nation 名族
+     * sex 性别
+     * idcard 身份证号码
+     * name 姓名
+     * seqNo 调用唯一标志
      * @throws Exception exception
      *
      */
