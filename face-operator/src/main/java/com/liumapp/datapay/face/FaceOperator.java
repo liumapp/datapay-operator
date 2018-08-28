@@ -38,9 +38,11 @@ public class FaceOperator implements InitializingBean {
      * 人脸比对接口
      * @param name 姓名
      * @param idcard 身份证号码
-     * @param image 图片Base64值
-     * @return JSONObject
+     * @param image 生活照图片Base64值
+     * @return JSONObject {"code":"10000","data":{"score":0.9019902348518372},"seqNo":"S51794FW1808281518","message":"成功"}
      * @throws Exception exception
+     * seqNo 接口调用唯一标志
+     * score 生活照与身份证证件照匹配得分，最高为1.0
      */
     public JSONObject handle (
             String name,
