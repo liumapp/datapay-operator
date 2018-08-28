@@ -1,6 +1,7 @@
 package com.liumapp.datapay.ocr;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -15,6 +16,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class OcrOperatorMain {
 
-
+    @Bean
+    public OcrOperator ocrOperator () {
+        return new OcrOperator();
+    }
 
 }
