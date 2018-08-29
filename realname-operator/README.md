@@ -28,7 +28,10 @@
         
 * 使用
 
-   JSONObject result = realnameOperator.handle("姓名","身份证号码");
+        @Autowired
+        private RealnameOperator realnameOperator;
+        
+        JSONObject result = realnameOperator.handle("姓名","身份证号码");
                        
 * 返回结果为
 
