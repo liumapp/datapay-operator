@@ -28,7 +28,10 @@
         
 * 使用
 
-   JSONObject result = ocrOperator.handle(Base64FileTool.filePathToBase64("证书图片文件地址"));
+      @Autowired
+      private OcrOperator ocrOperator;
+      
+      JSONObject result = ocrOperator.handle(Base64FileTool.filePathToBase64("证书图片文件地址"));
                        
 * 返回结果为
 
