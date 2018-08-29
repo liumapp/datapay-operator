@@ -28,12 +28,15 @@
         
 * 使用
 
-   JSONObject result = faceOperator.handle("姓名","身份证号码", Base64FileTool.filePathToBase64("生活照存储路径"));
+      @Autowired
+      private FaceOperator faceOperator;
+      
+      JSONObject result = faceOperator.handle("姓名","身份证号码", Base64FileTool.filePathToBase64("生活照存储路径"));
                        
 * 返回结果为
 
         {"code":"10000","data":{"score":0.9019902348518372},"seqNo":"S51794FW1808281518","message":"成功"}
         
     * seqNo 接口调用唯一标志
-    * score 生活照与身份证证件照匹配得分，最高为1.0
+    * score 生活照与身份证证件照匹配得分，最高为1.0，最低分为0，建议使用0.66
 
