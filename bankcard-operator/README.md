@@ -27,8 +27,11 @@
                 appkey: your app key here
 
 * 使用
+        
+        @Autowired
+        private BankcardOperator bankcardOperator;
 
-   JSONObject result = bankcardOperator.handle(
+        JSONObject result = bankcardOperator.handle(
                        "姓名",
                        "身份证号码",
                        "银行卡号码",
