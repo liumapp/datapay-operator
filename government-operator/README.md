@@ -28,7 +28,10 @@
         
 * 使用
 
-   JSONObject result = governmentOperator.handle("企业名称");
+        @Autowired
+        private GovernmentOperator governmentOperator;
+        
+        JSONObject result = governmentOperator.handle("企业名称");
                        
 * 返回结果为
 
