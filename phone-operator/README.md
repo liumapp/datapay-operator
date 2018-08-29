@@ -27,8 +27,11 @@
                 appkey: your app key here
         
 * 使用
-
-   JSONObject result = phoneOperator.handle("姓名","身份证号码");
+      
+      @Autowired
+      private PhoneOperator phoneOperator;
+      
+      JSONObject result = phoneOperator.handle("姓名","身份证号码","手机号码");
                        
 * 返回结果为
 
