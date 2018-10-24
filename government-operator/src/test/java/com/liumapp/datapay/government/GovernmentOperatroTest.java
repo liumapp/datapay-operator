@@ -21,7 +21,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = {GovernmentOperatorMain.class})
 public class GovernmentOperatroTest {
 
-    private boolean debug = true;
+    private boolean debug = false;
 
     @Autowired
     private GovernmentOperator governmentOperator;
