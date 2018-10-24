@@ -9,7 +9,7 @@
         <dependency>
             <groupId>com.liumapp.datapay.phone</groupId>
             <artifactId>phone-operator</artifactId>
-            <version>v1.0.0</version>
+            <version>v1.1.0</version>
         </dependency>
                     
 * 在SpringBoot启动类上通过注解引入Main Class

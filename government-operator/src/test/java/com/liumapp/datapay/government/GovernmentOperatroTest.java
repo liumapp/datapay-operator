@@ -1,6 +1,8 @@
 package com.liumapp.datapay.government;
 
 import com.alibaba.fastjson.JSONObject;
+import com.liumapp.datapay.government.status.EntTypeEnum;
+import com.liumapp.datapay.government.status.TypeEnum;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +21,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = {GovernmentOperatorMain.class})
 public class GovernmentOperatroTest {
 
-    private boolean debug = false;
+    private boolean debug = true;
 
     @Autowired
     private GovernmentOperator governmentOperator;
@@ -27,7 +29,7 @@ public class GovernmentOperatroTest {
     @Test
     public void testHandle () throws Exception {
         if (debug) {
-            JSONObject result = governmentOperator.handle("企业名称");
+            JSONObject result = governmentOperator.handle("企业名称", TypeEnum.NAME, EntTypeEnum.COMPANY);
             System.out.println(result.toJSONString());
         }
     }
