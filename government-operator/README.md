@@ -31,7 +31,7 @@
         @Autowired
         private GovernmentOperator governmentOperator;
         
-        JSONObject result = governmentOperator.handle("企业名称");
+        JSONObject result = governmentOperator.handle("企业名称", TypeEnum.NAME, EntTypeEnum.COMPANY);
                        
 * 返回结果为
 
