@@ -32,6 +32,20 @@
         private GovernmentOperator governmentOperator;
         
         JSONObject result = governmentOperator.handle("企业名称", TypeEnum.NAME, EntTypeEnum.COMPANY);
+        
+    * TypeEnum 查询企业的方式
+        
+        * NAME //企业全称
+        
+        * CREDIT_CODE //统一社会信用代码
+        
+        * REGNO //注册号                 
+              
+    * EntTypeEnum 查询企业的类型
+    
+        * COMPANY //企业
+            
+        * INDIVIDUAL_BUSINESSES //个体工商户          
                        
 * 返回结果为
 
