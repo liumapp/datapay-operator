@@ -36,12 +36,13 @@ public class RealnameOperator implements InitializingBean {
 
     /**
      * 公安部实名认证
-     * @param name 姓名
+     *
+     * @param name   姓名
      * @param idcard 身份证号码
      * @return json object  {"code":"10000","data":{"result":"1"},"seqNo":"DVGNHTXG1808270952","message":"成功"}
      * result:1 验证结果一致 result:2 验证结果不一致 result:3 出现异常
      */
-    public JSONObject handle (
+    public JSONObject handle(
             String name,
             String idcard
     ) throws Exception {
