@@ -23,8 +23,8 @@ public class SmsOperatorConfig {
     @ConfigurationProperties(prefix = "com.haoxy.sms")
     public SmsApi smsApi() {
         SmsApi smsApi = new SmsApi();
-        smsApi.setUserCode("xxxx");//这里填写用户名
-        smsApi.setUserPass("xxxx");//这里填写密码
+        smsApi.setUserCode("xxxx");
+        smsApi.setUserPass("xxxx");
         smsApi.setUrl("http://120.55.197.77:1210/Services/MsgSend.asmx/SendMsg");
         return smsApi;
     }

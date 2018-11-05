@@ -1,7 +1,5 @@
 package cn.haoxy.sms.operator.model;
 
-import com.sun.org.apache.xml.internal.dtm.ref.sax2dtm.SAX2DTM2;
-
 /**
  * Created by haoxy on 2018/11/3.
  * E-mail:hxyHelloWorld@163.com

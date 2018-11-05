@@ -3,7 +3,6 @@ package cn.haoxy.sms;
 import cn.haoxy.sms.operator.SmsOperatorMain;
 import cn.haoxy.sms.operator.model.Parameter;
 import cn.haoxy.sms.operator.tool.SendSms;
-import com.alibaba.fastjson.JSONObject;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
