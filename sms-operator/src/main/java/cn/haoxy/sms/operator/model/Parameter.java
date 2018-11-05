@@ -8,6 +8,7 @@ package cn.haoxy.sms.operator.model;
 public class Parameter {
 
     private String phone;
+
     private String content;
 
     public String getPhone() {
