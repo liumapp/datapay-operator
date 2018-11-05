@@ -1,5 +1,7 @@
 package cn.haoxy.sms.operator.model;
 
+import java.util.List;
+
 /**
  * Created by haoxy on 2018/11/3.
  * E-mail:hxyHelloWorld@163.com
@@ -10,6 +12,16 @@ public class Parameter {
     private String phone;
 
     private String content;
+
+    private List<String> phones;
+
+    public List<String> getPhones() {
+        return phones;
+    }
+
+    public void setPhones(List<String> phones) {
+        this.phones = phones;
+    }
 
     public String getPhone() {
         return phone;
