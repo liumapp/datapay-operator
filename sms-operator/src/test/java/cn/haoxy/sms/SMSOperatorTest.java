@@ -24,7 +24,7 @@ public class SMSOperatorTest {
     public void sendSmsUtil(){
         Parameter parameter =new Parameter();
         parameter.setPhone("18758177074");
-        parameter.setContent("您的验证码是：123456【放心签】");
+        parameter.setContent("这是短信内容【放心签】");
         boolean status = sendSms.sendMessage(parameter);
         System.out.println(status);
     }
