@@ -68,7 +68,7 @@ China data pay api operator .
     
     返回 true 即为成功, false 即为发送短信失败!
 
-
+    具体使用方式，请见sms-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/sms-operator)
 
 
 

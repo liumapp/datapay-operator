@@ -1,6 +1,6 @@
-package cn.haoxy.sms.operator.config;
+package com.liumapp.datapay.sms.config;
 
-import cn.haoxy.sms.operator.bean.SmsApi;
+import com.liumapp.datapay.sms.bean.SmsApi;
 import com.liumapp.qtools.http.HttpTool;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;

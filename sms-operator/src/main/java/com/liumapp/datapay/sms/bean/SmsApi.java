@@ -1,4 +1,4 @@
-package cn.haoxy.sms.operator.bean;
+package com.liumapp.datapay.sms.bean;
 
 import org.springframework.stereotype.Component;
 

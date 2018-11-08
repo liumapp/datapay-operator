@@ -1,8 +1,8 @@
 package cn.haoxy.sms;
 
-import cn.haoxy.sms.operator.SmsOperatorMain;
-import cn.haoxy.sms.operator.model.Parameter;
-import cn.haoxy.sms.operator.tool.SendSms;
+import com.liumapp.datapay.sms.SmsOperatorMain;
+import com.liumapp.datapay.sms.model.Parameter;
+import com.liumapp.datapay.sms.tool.SendSms;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
