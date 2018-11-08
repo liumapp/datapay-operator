@@ -1,7 +1,7 @@
-package cn.haoxy.sms.operator;
+package com.liumapp.datapay.sms;
 
-import cn.haoxy.sms.operator.config.SmsOperatorConfig;
-import cn.haoxy.sms.operator.tool.SendSms;
+import com.liumapp.datapay.sms.config.SmsOperatorConfig;
+import com.liumapp.datapay.sms.tool.SendSms;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

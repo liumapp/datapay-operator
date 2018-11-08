@@ -1,4 +1,4 @@
-package cn.haoxy.sms.operator.tool;
+package com.liumapp.datapay.sms.tool;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -10,7 +10,7 @@ import org.apache.http.impl.client.HttpClients;
 import java.io.InputStream;
 import java.util.List;
 
-import static cn.haoxy.sms.operator.tool.Convert.convertStreamToString;
+import static com.liumapp.datapay.sms.tool.Convert.convertStreamToString;
 
 /**
  * Created by haoxy on 2018/11/3.

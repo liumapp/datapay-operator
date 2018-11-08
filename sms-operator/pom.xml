@@ -10,6 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>sms-operator</artifactId>
     <version>v1.1.0</version>
+
+    <developers>
+        <developer>
+            <id>haoxy</id>
+            <name>haoxy</name>
+            <email>hxyHelloWorld@163.com</email>
+            <url>http://www.haoxiaoyong.cn</url>
+        </developer>
+    </developers>
     <dependencies>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -43,7 +52,7 @@
                     <manifest>
                         <addClasspath>true</addClasspath>
                         <classpathPrefix>./lib/</classpathPrefix>
-                        <mainClass>cn.haoxy.sms.operator.SmsOperatorMain</mainClass>
+                        <mainClass>com.liumapp.datapay.sms.SmsOperatorMain</mainClass>
                     </manifest>
                 </archive>
             </configuration>

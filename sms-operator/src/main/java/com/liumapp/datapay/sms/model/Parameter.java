@@ -1,4 +1,4 @@
-package cn.haoxy.sms.operator.model;
+package com.liumapp.datapay.sms.model;
 
 import java.util.List;
 
