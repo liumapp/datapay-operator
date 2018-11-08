@@ -9,7 +9,7 @@
         <dependency>
             <groupId>com.liumapp.datapay.realname</groupId>
             <artifactId>realname-operator</artifactId>
-            <version>v1.1.0</version>
+            <version>v1.1.5</version>
         </dependency>
         
 * 在SpringBoot启动类上通过注解引入Main Class

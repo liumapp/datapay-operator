@@ -9,7 +9,7 @@
 
   <groupId>com.liumapp.datapay.realname</groupId>
   <artifactId>realname-operator</artifactId>
-  <version>v1.1.0</version>
+  <version>v1.1.5</version>
   <packaging>jar</packaging>
 
   <developers>
