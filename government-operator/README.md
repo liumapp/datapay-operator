@@ -9,7 +9,7 @@
         <dependency>
             <groupId>com.liumapp.datapay.government</groupId>
             <artifactId>government-operator</artifactId>
-            <version>v1.1.5</version>
+            <version>v1.1.6</version>
         </dependency>
         
 * 在SpringBoot启动类上通过注解引入Main Class
