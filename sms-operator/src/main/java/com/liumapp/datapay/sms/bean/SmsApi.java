@@ -14,7 +14,17 @@ public class SmsApi {
 
     private String userPass;
 
+    private String signTrue;
+
     private String url;
+
+    public String getSignTrue() {
+        return signTrue;
+    }
+
+    public void setSignTrue(String signTrue) {
+        this.signTrue = signTrue;
+    }
 
     public String getUserCode() {
         return userCode;

@@ -31,7 +31,8 @@ public class SendSms {
         nvps.add(new BasicNameValuePair("userCode", smsApi.getUserCode()));
         nvps.add(new BasicNameValuePair("userPass", smsApi.getUserPass()));
         nvps.add(new BasicNameValuePair("DesNo", parameter.getPhone()));
-        nvps.add(new BasicNameValuePair("Msg", parameter.getContent()));
+        String s = parameter.getContent() + smsApi.getSignTrue();
+        nvps.add(new BasicNameValuePair("Msg", parameter.getContent()+smsApi.getSignTrue()));
         nvps.add(new BasicNameValuePair("Channel", "0"));
         String post = HttpPost.httpPost(smsApi.getUrl(), nvps);  //post请求
         if (post.contains("23")) {
@@ -53,7 +54,7 @@ public class SendSms {
             nvps.add(new BasicNameValuePair("userCode", smsApi.getUserCode()));
             nvps.add(new BasicNameValuePair("userPass", smsApi.getUserPass()));
             nvps.add(new BasicNameValuePair("DesNo", phone));
-            nvps.add(new BasicNameValuePair("Msg", parameter.getContent()));
+            nvps.add(new BasicNameValuePair("Msg", parameter.getContent()+smsApi.getSignTrue()));
             nvps.add(new BasicNameValuePair("Channel", "0"));
             post = HttpPost.httpPost(smsApi.getUrl(), nvps);  //post请求
         }

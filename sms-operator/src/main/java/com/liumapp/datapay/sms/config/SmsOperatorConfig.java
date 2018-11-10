@@ -25,6 +25,7 @@ public class SmsOperatorConfig {
         SmsApi smsApi = new SmsApi();
         smsApi.setUserCode("xxxx");
         smsApi.setUserPass("xxxx");
+        smsApi.setSignTrue("【放心签】");
         smsApi.setUrl("http://120.55.197.77:1210/Services/MsgSend.asmx/SendMsg");
         return smsApi;
     }
