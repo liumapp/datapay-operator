@@ -9,7 +9,6 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-
 	<groupId>com.liumapp.datapay</groupId>
 	<artifactId>datapay-operator</artifactId>
 	<version>v2.0.0</version>
