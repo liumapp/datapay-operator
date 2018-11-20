@@ -4,12 +4,12 @@
   <parent>
     <artifactId>datapay-operator</artifactId>
     <groupId>com.liumapp.datapay</groupId>
-    <version>v1.1.6</version>
+    <version>v2.0.0</version>
   </parent>
 
   <groupId>com.liumapp.datapay.phone</groupId>
   <artifactId>phone-operator</artifactId>
-  <version>v1.1.6</version>
+  <version>v2.0.0</version>
   <packaging>jar</packaging>
 
   <developers>
