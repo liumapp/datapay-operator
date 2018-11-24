@@ -1,6 +1,7 @@
 com:
   haoxy:
     sms:
-      userCode:
-      userPass:
-      signTrue: 【放心签】
+      userCode: usercode
+      userPass: usepass
+      signTrue: signwords
+

@@ -5,12 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.6.RELEASE</version>
+		<version>2.0.2.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.liumapp.datapay</groupId>
 	<artifactId>datapay-operator</artifactId>
-	<version>v1.1.6</version>
+	<version>v2.0.1</version>
 	<packaging>pom</packaging>
 
 	<name>datapay-operaotr</name>
@@ -68,7 +69,9 @@
         <module>realname-operator</module>
         <module>government-operator</module>
         <module>sms-operator</module>
-    </modules>
+		<module>ocr-car-operator</module>
+		<module>imageId-operator</module>
+	</modules>
 
 	<build>
 		<plugins>

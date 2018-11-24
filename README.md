@@ -70,11 +70,23 @@ China data pay api operator .
 
     具体使用方式，请见sms-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/sms-operator)
 
+* ocr-car-operator
+
+    驾驶证OCR识别
+    
+    在使用前配置 appkey
+    
+    传入驾驶证的图片地址返回驾驶证图片中的详细信息
+    
+    具体使用方式，请见ocr-car-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/ocr-car-operator)
 
 
+* imageId-operator
 
+    获取图片的imageId
+    
+    传入图片地址,返回的数据中data即是imageid
 
-
-
+    具体使用方式，请见imageId-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/imageId-operator)
 
  

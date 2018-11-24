@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.File;
+
 /**
  * file OcrOperatorTest.java
  * author liumapp
@@ -22,7 +24,7 @@ public class OcrOperatorTest {
 
     private boolean debug = false;
 
-    private String dataPath = "/usr/local/tomcat/project/datapay-operator/data/";
+    private String dataPath = "/Users/haoxiaoyong/Desktop";
 
     @Autowired
     private OcrOperator ocrOperator;
@@ -30,7 +32,7 @@ public class OcrOperatorTest {
     @Test
     public void testHandle () throws Exception {
         if (debug) {
-            JSONObject result = ocrOperator.handle(Base64FileTool.filePathToBase64(dataPath + "testIdCard.jpeg"));
+            JSONObject result = ocrOperator.handle(Base64FileTool.filePathToBase64(dataPath + File.separator+ "sfz.jpeg"));
             System.out.println(result.toJSONString());
         }
     }
