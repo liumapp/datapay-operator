@@ -87,6 +87,6 @@ China data pay api operator .
     
     传入图片地址,返回的数据中data即是imageid
 
-    具体使用方式，请见imageId-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/imageId-operator)
+    具体使用方式，请见imageId-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/imageid-operator)
 
  
