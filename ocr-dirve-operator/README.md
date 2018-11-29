@@ -31,7 +31,7 @@
       @Autowired
       private DirveOperator dirveOperator;
       
-      JSONObject handle = dirveOperator.handle("驾驶证图片地址");
+      JSONObject handle = dirveOperator.handle("行驶证图片地址");
                        
 * 返回结果为
   ```
