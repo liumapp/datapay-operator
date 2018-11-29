@@ -34,11 +34,8 @@
       JSONObject handle = dirveOperator.handle("驾驶证图片地址");
                        
 * 返回结果为
-
-
   ```
-  
-{
+    {
         "code":"10000",
         "message":"成功",
         "data":
@@ -72,7 +69,6 @@
             }},
             "seqNo":"8473X9371810161357"
         }
-
 ```
     
 * 注意
