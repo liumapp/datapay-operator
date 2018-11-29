@@ -89,4 +89,12 @@ China data pay api operator .
 
     具体使用方式，请见imageId-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/imageid-operator)
 
- 
+* ocr-dirve-operator
+
+    行驶证OCR识别 
+    
+    在使用前配置 appkey
+
+    传入行驶证的图片地址返回行驶证证图片中的详细信息
+    
+    具体使用方式，请见ocr-dirve-operator的[README.md](https://github.com/liumapp/datapay-operator/tree/master/ocr-dirve-operator)
