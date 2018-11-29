@@ -35,8 +35,10 @@
                        
 * 返回结果为
 
+
+  ```
   
-    {
+{
         "code":"10000",
         "message":"成功",
         "data":
@@ -71,6 +73,8 @@
             "seqNo":"8473X9371810161357"
         }
 
+```
+    
 * 注意
 
     * 在配置 appkey的时候需要同时配置 imageId-operator 的appkey,两者使用同一个appkey即可,

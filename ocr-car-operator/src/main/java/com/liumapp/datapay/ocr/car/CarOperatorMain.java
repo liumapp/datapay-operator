@@ -1,6 +1,5 @@
 package com.liumapp.datapay.ocr.car;
 
-import com.liumapp.datapay.ocr.car.bean.CarApi;
 import com.liumapp.datapay.ocr.car.config.CarOperatorConfig;
 import com.liumapp.datapay.ocr.car.tool.CarOperator;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
