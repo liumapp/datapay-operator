@@ -9,7 +9,7 @@
       <dependency>
         <groupId>com.liumapp.datapay</groupId>
          <artifactId>imageId-operator</artifactId>
-         <version>v2.0.1</version>
+         <version>v2.0.3</version>
       </dependency>
         
 * 在SpringBoot启动类上通过注解引入Main Class

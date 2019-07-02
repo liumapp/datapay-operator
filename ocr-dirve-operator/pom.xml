@@ -5,7 +5,7 @@
     <parent>
         <artifactId>datapay-operator</artifactId>
         <groupId>com.liumapp.datapay</groupId>
-        <version>v2.0.2</version>
+        <version>v2.0.3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -20,7 +20,7 @@
             <dependency>
                 <groupId>com.liumapp.datapay</groupId>
                 <artifactId>imageId-operator</artifactId>
-                <version>v2.0.2</version>
+                <version>v2.0.3</version>
             </dependency>
     </dependencies>
 </project>
