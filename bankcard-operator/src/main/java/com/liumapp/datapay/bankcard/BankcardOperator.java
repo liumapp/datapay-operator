@@ -83,7 +83,7 @@ public class BankcardOperator implements InitializingBean {
         params.put("key", bankcardApi.getAppkey());
         params.put("name", name);
         params.put("idcard", idcard);
-        params.put("acc_no", accNo);
+        params.put("acct_no", accNo);
         HttpResponse response = httpTool.doPost(
                 bankcardApi.getHost(),
                 bankcardApi.getPath2(),
