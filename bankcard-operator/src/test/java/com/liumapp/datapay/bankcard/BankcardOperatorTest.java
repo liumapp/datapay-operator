@@ -24,6 +24,9 @@ public class BankcardOperatorTest {
     @Autowired
     private BankcardOperator bankcardOperator;
 
+    /**
+     * 银行卡四要素
+     */
     @Test
     public void testHandle () throws Exception {
         if (debug) {
@@ -32,6 +35,20 @@ public class BankcardOperatorTest {
                     "身份证号码",
                     "银行卡号码",
                     "手机号码");
+            System.out.println(result.toJSONString());
+        }
+    }
+
+    /**
+     * 银行卡三要素
+     */
+    @Test
+    public void testHandle2 () throws Exception {
+        if (debug) {
+            JSONObject result = bankcardOperator.handle(
+                    "姓名",
+                    "身份证号码",
+                    "银行卡号码");
             System.out.println(result.toJSONString());
         }
     }

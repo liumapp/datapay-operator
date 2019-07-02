@@ -28,6 +28,7 @@ public class BankcardOperatorConfig {
         BankcardApi bankcardApi = new BankcardApi();
         bankcardApi.setHost("http://api.chinadatapay.com/");
         bankcardApi.setPath("/communication/personal/1887");
+        bankcardApi.setPath2("/communication/personal/1886");
         return bankcardApi;
     }
 

@@ -35,7 +35,7 @@ public class BankcardOperator implements InitializingBean {
     public Map<String, String> querys = new HashMap<String, String>();
 
     /**
-     * 处理银行验证信息
+     * 处理四要素银行验证信息
      * @param name 姓名
      * @param idcard 身份证号码
      * @param accNo 银行卡号
@@ -65,6 +65,37 @@ public class BankcardOperator implements InitializingBean {
         String res = EntityUtils.toString(response.getEntity());
         return JSON.parseObject(res);
     }
+
+    /**
+     * 处理三要素银行验证信息
+     * @param name 姓名
+     * @param idcard 身份证号码
+     * @param accNo 银行卡号
+     * @return json object  {"code":"10000","data":{"state":"1"},"seqNo":"IQ4M30TT1808230932","message":"成功"}
+     * state:1 验证结果一致 state:2 验证结果不一致 state:3 出现异常
+     */
+    public JSONObject handle (
+            String name,
+            String idcard,
+            String accNo
+    ) throws Exception {
+        HashMap<String, String> params = new HashMap<>();
+        params.put("key", bankcardApi.getAppkey());
+        params.put("name", name);
+        params.put("idcard", idcard);
+        params.put("acc_no", accNo);
+        HttpResponse response = httpTool.doPost(
+                bankcardApi.getHost(),
+                bankcardApi.getPath2(),
+                "POST",
+                headers,
+                querys,
+                params);
+        String res = EntityUtils.toString(response.getEntity());
+        return JSON.parseObject(res);
+    }
+
+
 
     @Override
     public void afterPropertiesSet() throws Exception {
