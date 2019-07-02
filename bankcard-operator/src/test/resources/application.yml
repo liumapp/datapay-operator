@@ -2,7 +2,8 @@ com:
   liumapp:
     datapay:
       bankcard:
-        appkey: your app key here
+        appkey: four element key
+        appkey2: there element key
 
 
 

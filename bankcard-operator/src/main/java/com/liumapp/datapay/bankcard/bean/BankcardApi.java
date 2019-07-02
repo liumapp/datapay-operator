@@ -25,7 +25,15 @@ public class BankcardApi {
      */
     private String path2;
 
+    /**
+     * 银行卡四要素key
+     */
     private String appkey;
+
+    /**
+     * 银行卡三要素key
+     */
+    private String appkey2;
 
     public BankcardApi() {
     }
@@ -41,6 +49,23 @@ public class BankcardApi {
         this.path = path;
         this.path2 = path2;
         this.appkey = appkey;
+    }
+
+    public BankcardApi(String host, String path, String path2, String appkey, String appkey2) {
+        this.host = host;
+        this.path = path;
+        this.path2 = path2;
+        this.appkey = appkey;
+        this.appkey2 = appkey2;
+    }
+
+    public String getAppkey2() {
+        return appkey2;
+    }
+
+    public BankcardApi setAppkey2(String appkey2) {
+        this.appkey2 = appkey2;
+        return this;
     }
 
     public String getHost() {

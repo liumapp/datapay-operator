@@ -24,7 +24,8 @@
           liumapp:
             datapay:
               bankcard:
-                appkey: your app key here
+                appkey: 银行卡四要素key
+                appkey2: 银行卡三要素key
 
 * 使用
 

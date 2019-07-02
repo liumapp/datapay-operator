@@ -80,7 +80,7 @@ public class BankcardOperator implements InitializingBean {
             String accNo
     ) throws Exception {
         HashMap<String, String> params = new HashMap<>();
-        params.put("key", bankcardApi.getAppkey());
+        params.put("key", bankcardApi.getAppkey2());
         params.put("name", name);
         params.put("idcard", idcard);
         params.put("acct_no", accNo);
