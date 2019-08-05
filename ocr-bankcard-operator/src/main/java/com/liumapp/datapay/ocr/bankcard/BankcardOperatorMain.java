@@ -1,6 +1,6 @@
 package com.liumapp.datapay.ocr.bankcard;
 
-import com.liumapp.datapay.ocr.bankcard.config.CarOperatorConfig;
+import com.liumapp.datapay.ocr.bankcard.config.BankcardOperatorConfig;
 import com.liumapp.datapay.ocr.bankcard.tool.BankcardOperator;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Import;
  */
 @EnableAutoConfiguration
 @Configuration
-@Import({CarOperatorConfig.class})
+@Import({BankcardOperatorConfig.class})
 public class BankcardOperatorMain {
 
     @Bean

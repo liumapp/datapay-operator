@@ -21,6 +21,7 @@ public class BankcardOperatorConfig {
     public HttpTool httpTool () {
         return new HttpTool();
     }
+
     @Bean
     @ConfigurationProperties(prefix = "com.liumapp.datapay.bankcard")
     public BankcardApi carApi(){

@@ -3,7 +3,7 @@ package com.liumapp.datapay.ocr.bankcard.tool;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.liumapp.datapay.imageid.tool.ImageOperator;
-import com.liumapp.datapay.ocr.bankcard.bean.CarApi;
+import com.liumapp.datapay.ocr.bankcard.bean.BankcardApi;
 import com.liumapp.datapay.ocr.bankcard.bean.ResBody;
 import com.liumapp.qtools.http.HttpTool;
 import org.apache.http.HttpResponse;
@@ -30,7 +30,7 @@ public class BankcardOperator {
     private HttpTool httpTool;
 
     @Resource
-    private CarApi carApi;
+    private BankcardApi bankcardApi;
 
     @Autowired
     private ImageOperator imageOperator;
@@ -44,10 +44,10 @@ public class BankcardOperator {
         ResBody resBody = JSON.parseObject(String.valueOf(handle), ResBody.class);
         if (resBody.getSuccess()) {
             HashMap<String, String> params = new HashMap<>();
-            params.put("key", carApi.getAppkey());
+            params.put("key", bankcardApi.getAppkey());
             params.put("imageId", resBody.getData());
-            HttpResponse response = httpTool.doPost(carApi.getHost(),
-                    carApi.getPath(),
+            HttpResponse response = httpTool.doPost(bankcardApi.getHost(),
+                    bankcardApi.getPath(),
                     "POST",
                     headers,
                     querys,
