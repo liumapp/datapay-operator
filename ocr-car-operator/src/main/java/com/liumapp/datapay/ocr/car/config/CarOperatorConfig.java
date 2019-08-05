@@ -1,6 +1,6 @@
 package com.liumapp.datapay.ocr.car.config;
 
-import com.liumapp.datapay.ocr.bankcard.bean.CarApi;
+import com.liumapp.datapay.ocr.car.bean.CarApi;
 import com.liumapp.qtools.http.HttpTool;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;

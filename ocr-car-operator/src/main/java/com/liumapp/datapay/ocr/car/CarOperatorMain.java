@@ -1,7 +1,7 @@
 package com.liumapp.datapay.ocr.car;
 
-import com.liumapp.datapay.ocr.bankcard.config.CarOperatorConfig;
-import com.liumapp.datapay.ocr.bankcard.tool.CarOperator;
+import com.liumapp.datapay.ocr.car.config.CarOperatorConfig;
+import com.liumapp.datapay.ocr.car.tool.CarOperator;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
