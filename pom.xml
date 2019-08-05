@@ -11,7 +11,7 @@
 
 	<groupId>com.liumapp.datapay</groupId>
 	<artifactId>datapay-operator</artifactId>
-	<version>v2.0.3</version>
+	<version>v2.0.4</version>
 	<packaging>pom</packaging>
 
 	<name>datapay-operaotr</name>

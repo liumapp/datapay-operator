@@ -9,7 +9,7 @@
         <dependency>
             <groupId>com.liumapp.datapay.face</groupId>
             <artifactId>face-operator</artifactId>
-            <version>v2.0.3</version>
+            <version>v2.0.4</version>
         </dependency>
                     
 * 在SpringBoot启动类上通过注解引入Main Class
