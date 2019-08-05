@@ -42,7 +42,6 @@
       "code":"10000",
       "data":"2c4c7e0bca7d435691094f8e2314c569",
       "success":true
-      
     } 
                    
 其中data就是我们需要的imageId                       
