@@ -3,7 +3,6 @@ package com.liumapp.datapay.ocr.bankcard;
 import com.alibaba.fastjson.JSONObject;
 import com.liumapp.datapay.imageid.ImageOperatorMain;
 import com.liumapp.datapay.ocr.bankcard.tool.CarOperator;
-import com.liumapp.qtools.file.base64.Base64FileTool;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

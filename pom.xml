@@ -69,9 +69,11 @@
         <module>realname-operator</module>
         <module>government-operator</module>
         <module>sms-operator</module>
-		<module>ocr-car-operator</module>
+		<module>ocr-bankcard-operator</module>
 		<module>imageId-operator</module>
 		<module>ocr-dirve-operator</module>
+		<module>ocr-bankcard-operator</module>
+		<module>ocr-car-operator</module>
 	</modules>
 
 	<build>
