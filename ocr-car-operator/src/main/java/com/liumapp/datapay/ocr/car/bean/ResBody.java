@@ -1,4 +1,4 @@
-package com.liumapp.datapay.ocr.bankcard.bean;
+package com.liumapp.datapay.ocr.car.bean;
 
 /**
  * Created by haoxy on 2018/11/24.

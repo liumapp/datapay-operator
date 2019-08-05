@@ -1,4 +1,4 @@
-package com.liumapp.datapay.ocr.bankcard.tool;
+package com.liumapp.datapay.ocr.car.tool;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

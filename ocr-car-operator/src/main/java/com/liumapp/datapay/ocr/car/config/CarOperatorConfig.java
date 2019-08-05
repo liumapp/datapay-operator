@@ -1,4 +1,4 @@
-package com.liumapp.datapay.ocr.bankcard.config;
+package com.liumapp.datapay.ocr.car.config;
 
 import com.liumapp.datapay.ocr.bankcard.bean.CarApi;
 import com.liumapp.qtools.http.HttpTool;

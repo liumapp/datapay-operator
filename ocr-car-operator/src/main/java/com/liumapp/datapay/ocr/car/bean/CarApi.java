@@ -1,4 +1,4 @@
-package com.liumapp.datapay.ocr.bankcard.bean;
+package com.liumapp.datapay.ocr.car.bean;
 
 import org.springframework.stereotype.Component;
 

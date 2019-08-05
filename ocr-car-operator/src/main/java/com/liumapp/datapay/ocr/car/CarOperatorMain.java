@@ -1,4 +1,4 @@
-package com.liumapp.datapay.ocr.bankcard;
+package com.liumapp.datapay.ocr.car;
 
 import com.liumapp.datapay.ocr.bankcard.config.CarOperatorConfig;
 import com.liumapp.datapay.ocr.bankcard.tool.CarOperator;
