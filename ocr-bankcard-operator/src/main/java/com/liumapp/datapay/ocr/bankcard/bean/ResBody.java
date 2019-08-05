@@ -1,9 +1,12 @@
 package com.liumapp.datapay.ocr.bankcard.bean;
 
 /**
- * Created by haoxy on 2018/11/24.
- * E-mail:hxyHelloWorld@163.com
- * github:https://github.com/haoxiaoyong1014
+ * file ResBody.java
+ * author liumapp
+ * github https://github.com/liumapp
+ * email liumapp.com@gmail.com
+ * homepage http://www.liumapp.com
+ * date 2019/8/5
  */
 public class ResBody {
 
