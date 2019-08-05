@@ -16,12 +16,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by haoxy on 2018/11/23.
- * E-mail:hxyHelloWorld@163.com
- * github:https://github.com/haoxiaoyong1014
+ * file BankcardOperator.java
+ * author liumapp
+ * github https://github.com/liumapp
+ * email liumapp.com@gmail.com
+ * homepage http://www.liumapp.com
+ * date 2019/8/5
  */
 @Component
-public class CarOperator {
+public class BankcardOperator {
 
     @Resource(name = "ocrHttpTool")
     private HttpTool httpTool;

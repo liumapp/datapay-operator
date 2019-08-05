@@ -3,12 +3,15 @@ package com.liumapp.datapay.ocr.bankcard.bean;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by haoxy on 2018/11/23.
- * E-mail:hxyHelloWorld@163.com
- * github:https://github.com/haoxiaoyong1014
+ * file BankcardApi.java
+ * author liumapp
+ * github https://github.com/liumapp
+ * email liumapp.com@gmail.com
+ * homepage http://www.liumapp.com
+ * date 2019/8/5
  */
 @Component
-public class CarApi {
+public class BankcardApi {
 
     private String host;
 
@@ -16,10 +19,10 @@ public class CarApi {
 
     private String appkey;
 
-    public CarApi() {
+    public BankcardApi() {
     }
 
-    public CarApi(String host, String path, String appkey) {
+    public BankcardApi(String host, String path, String appkey) {
         this.host = host;
         this.path = path;
         this.appkey = appkey;
@@ -29,7 +32,7 @@ public class CarApi {
         return host;
     }
 
-    public CarApi setHost(String host) {
+    public BankcardApi setHost(String host) {
         this.host = host;
         return this;
     }
@@ -38,7 +41,7 @@ public class CarApi {
         return path;
     }
 
-    public CarApi setPath(String path) {
+    public BankcardApi setPath(String path) {
         this.path = path;
         return this;
     }
@@ -47,7 +50,7 @@ public class CarApi {
         return appkey;
     }
 
-    public CarApi setAppkey(String appkey) {
+    public BankcardApi setAppkey(String appkey) {
         this.appkey = appkey;
         return this;
     }
