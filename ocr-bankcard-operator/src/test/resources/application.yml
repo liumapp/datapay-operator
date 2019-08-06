@@ -4,8 +4,7 @@ com:
       appkey:
   liumapp:
     datapay:
-      bankcard:
-        appKey:
-
-
+      ocr:
+        bankcard:
+          appKey:
 

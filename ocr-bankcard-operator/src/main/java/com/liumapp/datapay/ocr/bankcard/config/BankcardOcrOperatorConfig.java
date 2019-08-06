@@ -23,7 +23,7 @@ public class BankcardOcrOperatorConfig {
     }
 
     @Bean
-    @ConfigurationProperties(prefix = "com.liumapp.datapay.bankcard")
+    @ConfigurationProperties(prefix = "com.liumapp.datapay.ocr.bankcard")
     public BankcardOcrApi bankcardOcrApi(){
         BankcardOcrApi bankcardOcrApi = new BankcardOcrApi();
         bankcardOcrApi.setHost("http://api.chinadatapay.com/");

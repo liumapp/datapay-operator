@@ -5,11 +5,11 @@
     <parent>
         <artifactId>datapay-operator</artifactId>
         <groupId>com.liumapp.datapay</groupId>
-        <version>v2.0.4</version>
+        <version>v2.0.5</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>sms-operator</artifactId>
-    <version>v2.0.4</version>
+    <version>v2.0.5</version>
 
     <developers>
         <developer>

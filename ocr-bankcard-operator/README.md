@@ -9,13 +9,13 @@
         <dependency>
             <groupId>com.liumapp.datapay.ocr.bankcard</groupId>
             <artifactId>ocr-bankcard-operator</artifactId>
-            <version>v2.0.4</version>
+            <version>v2.0.5</version>
         </dependency>
                     
 * 在SpringBoot启动类上通过注解引入Main Class
 
         @Import({
-                BankcardOperatorMain.class,ImageOperatorMain.class
+                BankcardOcrOperatorMain.class,ImageOperatorMain.class
         })        
         
 * 配置app key
@@ -26,15 +26,17 @@
               appkey:
           liumapp:
             datapay:
-              bankcard:
-                appKey:
+              ocr:
+                bankcard:
+                  appKey:
+        
           
 * 使用
 
       @Autowired
-      private BankcardOperator bankcardOperator;
+      private BankcardOcrOperator bankcardOcrOperator;
       
-      JSONObject handle = bankcardOperator.handle("银行卡图片地址");
+      JSONObject handle = bankcardOcrOperator.handle("银行卡图片地址");
                        
 * 返回结果为
 

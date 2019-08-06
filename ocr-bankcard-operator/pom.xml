@@ -5,13 +5,13 @@
     <parent>
         <artifactId>datapay-operator</artifactId>
         <groupId>com.liumapp.datapay</groupId>
-        <version>v2.0.4</version>
+        <version>v2.0.5</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.liumapp.datapay.ocr.bankcard</groupId>
     <artifactId>ocr-bankcard-operator</artifactId>
-    <version>v2.0.4</version>
+    <version>v2.0.5</version>
 
     <developers>
         <developer>
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>com.liumapp.datapay</groupId>
             <artifactId>imageId-operator</artifactId>
-            <version>v2.0.4</version>
+            <version>v2.0.5</version>
         </dependency>
     </dependencies>
 </project>
