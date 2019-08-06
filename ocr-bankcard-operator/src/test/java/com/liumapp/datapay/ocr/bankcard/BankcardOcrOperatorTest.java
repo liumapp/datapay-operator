@@ -2,18 +2,16 @@ package com.liumapp.datapay.ocr.bankcard;
 
 import com.alibaba.fastjson.JSONObject;
 import com.liumapp.datapay.imageid.ImageOperatorMain;
-import com.liumapp.datapay.ocr.bankcard.tool.BankcardOperator;
+import com.liumapp.datapay.ocr.bankcard.tool.BankcardOcrOperator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.io.File;
-
 
 /**
- * file BankcardOperatorTest.java
+ * file BankcardOcrOperatorTest.java
  * author liumapp
  * github https://github.com/liumapp
  * email liumapp.com@gmail.com
@@ -21,11 +19,11 @@ import java.io.File;
  * date 2019/8/5
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = {BankcardOperatorMain.class,ImageOperatorMain.class})
-public class BankcardOperatorTest {
+@SpringBootTest(classes = {BankcardOcrOperatorMain.class,ImageOperatorMain.class})
+public class BankcardOcrOperatorTest {
 
     @Autowired
-    private BankcardOperator bankcardOperator;
+    private BankcardOcrOperator bankcardOcrOperator;
 
     private String DATA_PATH = "../data/";
 
@@ -34,7 +32,7 @@ public class BankcardOperatorTest {
      */
     @Test
     public void carOcrTest() throws Exception {
-        JSONObject handle = bankcardOperator.handle(DATA_PATH + "bankcard.png");
+        JSONObject handle = bankcardOcrOperator.handle(DATA_PATH + "bankcard.png");
         System.out.println(handle);
     }
 }

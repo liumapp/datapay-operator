@@ -1,13 +1,13 @@
 package com.liumapp.datapay.ocr.bankcard.config;
 
-import com.liumapp.datapay.ocr.bankcard.bean.BankcardApi;
+import com.liumapp.datapay.ocr.bankcard.bean.BankcardOcrApi;
 import com.liumapp.qtools.http.HttpTool;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * file BankcardOperatorConfig.java
+ * file BankcardOcrOperatorConfig.java
  * author liumapp
  * github https://github.com/liumapp
  * email liumapp.com@gmail.com
@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
  * date 2019/8/5
  */
 @Configuration
-public class BankcardOperatorConfig {
+public class BankcardOcrOperatorConfig {
 
     @Bean("ocrHttpTool")
     public HttpTool httpTool () {
@@ -24,10 +24,10 @@ public class BankcardOperatorConfig {
 
     @Bean
     @ConfigurationProperties(prefix = "com.liumapp.datapay.bankcard")
-    public BankcardApi carApi(){
-        BankcardApi bankcardApi = new BankcardApi();
-        bankcardApi.setHost("http://api.chinadatapay.com/");
-        bankcardApi.setPath("trade/user/1986");
-        return bankcardApi;
+    public BankcardOcrApi bankcardOcrApi(){
+        BankcardOcrApi bankcardOcrApi = new BankcardOcrApi();
+        bankcardOcrApi.setHost("http://api.chinadatapay.com/");
+        bankcardOcrApi.setPath("trade/user/1986");
+        return bankcardOcrApi;
     }
 }
